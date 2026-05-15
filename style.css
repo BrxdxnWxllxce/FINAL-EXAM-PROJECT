@@ -82,7 +82,7 @@ body {
 }
 .column a {
     display: inline-block;                
-    background-image: url(/img/splashh.png);
+    background-image: url(/img/logo&banner/splashh.png);
     background-size: 100%;  
     background-position: center;
     padding: 70px 55px;          
@@ -93,7 +93,7 @@ body {
     
 }
 #categorize {
-    padding: 40px 20px;
+    padding: 70px 0;
 }
 #categorize h1{
     text-align: center;
@@ -108,9 +108,10 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0 80px;
 }
 .cat-card {
-    margin: 10px;
+    margin: 20px;
     width: 250px;
     height: 400px;
     background-color: #F5F0E8;
@@ -126,6 +127,7 @@ body {
     color: #8C7B6E;
 }
 .cat-card img{
+    background-color: #1f8345;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -165,7 +167,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/banner.png);
+    background-image: url(/img/logo&banner/banner.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -194,12 +196,78 @@ body {
 .banner h1{
     color: #E8E0D0;
 }
+#newshop {
+    padding: 70px 0;
+}
+#newshop h1{
+    text-align: center;
+    color: #3D3228;
+}
+#newshop p{
+    color: #8C7B6E;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.shop-card span{
+    color: #8C7B6E;
+}
+.shop-card h2{
+    color: #3D3228;
+}
+.shop-cards {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 80px;
+}
+.card-star {
+    margin-top: 15px;
+}
+.shop-card {
+    background-color: #F5F0E8;
+    margin: 20px;
+    height: 440px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.06);
+}
+.shop-card:hover{
+    transform: scale(1.06);
+    transition: all 1s ease;
+    cursor: alias;
+    box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.06);
+}
+.shop-card img{
+    height: 260px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1f8345;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.shop-card a{
+    text-decoration: none;
+    color: rgb(236, 200, 133);
+    display: inline-block;
+    background-color: #1f8345;
+    margin: 30px;
+    padding: 5px 40px;
+    border-radius: 15px;
+}
+.shop-card a:hover{
+    transition: all 1s ease;
+    color: #3D3228;
+    background-color: #32c069;
+}
 #feature {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 70px 80px;
 }
 #feature img{
     width: 150px;
@@ -223,4 +291,92 @@ body {
     border-radius: 10px;
     color: #41b96f;
     background-color: #5A4638;
+}
+#sm-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 80px;
+}
+#sm-banner span{
+    color: #3b9b60;
+}
+#sm-banner a{
+    text-decoration: none;
+    color: #F5F0E8;
+    border: solid;
+    border-color: #F5F0E8;
+    background-color: transparent;
+    padding: 10px 40px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/img/logo&banner/bettersmallfashinbanner.png);
+    background-position: center;
+    background-size: cover;
+    min-width: 650px;
+    height: 60vh;
+    padding: 30px;
+}
+#sm-banner .banner-box2 {
+    background-image: url(/img/logo&banner/modifiedtachsmallbanner.png);
+}
+.banner-box p{
+    color: #999792;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.banner-box h1{
+    color: #F5F0E8;
+    font-weight: 800;
+    font-size: 50px;
+}
+#sm-banner .banner-box:hover a{
+    transition: all 1s ease;
+    border: none;
+    background-color: #1f8345;
+    color: #F5F0E8;
+} 
+#sm-banner2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 80px;
+}
+.banner2-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/img/logo&banner/blackfriobanner.webp);
+    min-width: 30%;
+    height: 30vh;
+}
+.banner2-box2 {
+    background-image: url(/img/logo&banner/skincaresmallbanner.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+.banner2-box3 {
+    background-image: url(/img/logo&banner/foodsmallbannernew.jpg);
+    background-position: center;
+    background-size: cover;
+}  
+.banner2-box h2{
+    color: #F5F0E8;
+    font-weight: 700;
+    font-size: 40px;
+}
+.banner2-box h4{
+     color: #F5F0E8;
+    font-weight: 300;
+    font-size: 20px;
+}
+.banner2-box span{
+    color: rgb(189, 12, 48);
 }
