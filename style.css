@@ -219,7 +219,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 80px;
+    margin: 0 35px;
 }
 .card-star {
     margin-top: 15px;
@@ -319,7 +319,7 @@ body {
     background-image: url(/img/logo&banner/bettersmallfashinbanner.png);
     background-position: center;
     background-size: cover;
-    min-width: 650px;
+    min-width: 580px;
     height: 60vh;
     padding: 30px;
 }
@@ -354,7 +354,7 @@ body {
     justify-content: center;
     text-align: center;
     background-image: url(/img/logo&banner/blackfriobanner.webp);
-    min-width: 30%;
+    min-width: 380px;
     height: 30vh;
 }
 .banner2-box2 {
@@ -379,4 +379,28 @@ body {
 }
 .banner2-box span{
     color: rgb(189, 12, 48);
+}
+#review {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.rev-star {
+    margin-top: 16px;
+}
+.review-card {
+    margin: 15px;
+    text-align: center;
+    padding: 20px 40px;
+    width: 300px;
+    background-color: #F5F0E8;
+
+}
+.review-card img{
+    margin-top: 20px;
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
 }
